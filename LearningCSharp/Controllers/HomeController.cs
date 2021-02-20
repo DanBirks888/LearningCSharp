@@ -23,7 +23,12 @@ namespace LearningCSharp.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Database()
+        {
+            return View();
+        }
+
+        public IActionResult aspDotNet()
         {
             return View();
         }
