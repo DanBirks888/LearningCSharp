@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\drbor\\source\\repos\\LearningCSharp\\LearningCSharp\\LearningCSharp.csproj": {}
+    "/Users/Dan/Projects/LearningCSharp/LearningCSharp/LearningCSharp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\drbor\\source\\repos\\LearningCSharp\\LearningCSharp\\LearningCSharp.csproj": {
+    "/Users/Dan/Projects/LearningCSharp/LearningCSharp/LearningCSharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\drbor\\source\\repos\\LearningCSharp\\LearningCSharp\\LearningCSharp.csproj",
+        "projectUniqueName": "/Users/Dan/Projects/LearningCSharp/LearningCSharp/LearningCSharp.csproj",
         "projectName": "LearningCSharp",
-        "projectPath": "C:\\Users\\drbor\\source\\repos\\LearningCSharp\\LearningCSharp\\LearningCSharp.csproj",
-        "packagesPath": "C:\\Users\\drbor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\drbor\\source\\repos\\LearningCSharp\\LearningCSharp\\obj\\",
+        "projectPath": "/Users/Dan/Projects/LearningCSharp/LearningCSharp/LearningCSharp.csproj",
+        "packagesPath": "/Users/Dan/.nuget/packages/",
+        "outputPath": "/Users/Dan/Projects/LearningCSharp/LearningCSharp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\drbor\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/Dan/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -63,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.103/RuntimeIdentifierGraph.json"
         }
       }
     }
