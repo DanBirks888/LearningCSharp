@@ -202,7 +202,6 @@ C:\Users\drbor\source\repos\LearningCSharp\LearningCSharp\obj\Debug\netcoreapp3.
 C:\Users\drbor\source\repos\LearningCSharp\LearningCSharp\obj\Debug\netcoreapp3.1\LearningCSharp.TagHelpers.input.cache
 C:\Users\drbor\source\repos\LearningCSharp\LearningCSharp\obj\Debug\netcoreapp3.1\LearningCSharp.TagHelpers.output.cache
 C:\Users\drbor\source\repos\LearningCSharp\LearningCSharp\obj\Debug\netcoreapp3.1\LearningCSharp.RazorCoreGenerate.cache
-C:\Users\drbor\source\repos\LearningCSharp\LearningCSharp\obj\Debug\netcoreapp3.1\Razor\Views\Home\AspDotNet.cshtml.g.cs
 C:\Users\drbor\source\repos\LearningCSharp\LearningCSharp\obj\Debug\netcoreapp3.1\Razor\Views\Home\Database.cshtml.g.cs
 C:\Users\drbor\source\repos\LearningCSharp\LearningCSharp\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\drbor\source\repos\LearningCSharp\LearningCSharp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
@@ -218,3 +217,4 @@ C:\Users\drbor\source\repos\LearningCSharp\LearningCSharp\obj\Debug\netcoreapp3.
 C:\Users\drbor\source\repos\LearningCSharp\LearningCSharp\obj\Debug\netcoreapp3.1\LearningCSharp.pdb
 C:\Users\drbor\source\repos\LearningCSharp\LearningCSharp\obj\Debug\netcoreapp3.1\LearningCSharp.genruntimeconfig.cache
 C:\Users\drbor\source\repos\LearningCSharp\LearningCSharp\obj\Debug\netcoreapp3.1\LearningCSharp.csprojAssemblyReference.cache
+C:\Users\drbor\source\repos\LearningCSharp\LearningCSharp\obj\Debug\netcoreapp3.1\Razor\Views\TechStack\AspDotNet.cshtml.g.cs
