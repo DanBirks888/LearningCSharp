@@ -1,0 +1,54 @@
+﻿@model IEnumerable<LearningCSharp.Models.TechStack>
+
+@{
+    ViewData["Title"] = "POCODataReturn";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>POCODataReturn</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UsedBefore)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Proficiency)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FavAtrribute)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UsedBefore)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Proficiency)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FavAtrribute)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

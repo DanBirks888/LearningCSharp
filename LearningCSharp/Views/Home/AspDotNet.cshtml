@@ -4,14 +4,14 @@
 
 <h1 style="padding:30px" class="text-center">ASP.NET MVC</h1>
 
-<h3 style="padding:10px">The Model</h3>
+<h3 style="padding:10px">Basic MVC Functionality</h3>
 <div class="row">
     <div class="col-4">
         <div class="list-group" id="list-tab" role="tablist">
             <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" style="font-size:large" aria-controls="home">Classes</a>
             <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" style="font-size:large" aria-controls="profile">Controller</a>
             <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" style="font-size:large" aria-controls="messages">View</a>
-            <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" style="font-size:large" aria-controls="settings">Manipulation</a>
+            <img src="https://pnnsoft.com/Storage/BaseContents/c5e41a0a-2979-45dd-8c20-810c8a91c393/70c2c2b4-4fd8-4ab6-b923-6ac036f57974.png" />
         </div>
     </div>
     <div class="col-8">
@@ -30,39 +30,28 @@
             <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
                 <ul class="list-group" style="text-size-adjust:auto">
                     <li class="list-group-item list-group-item-primary" style="font-size:medium">Right Click on the Controller Folder and create a new Empty Controller Class</li>
-                    <li class="list-group-item list-group-item-secondary" style="font-size:medium">IActionResult is an Interface which specifies how the server should respond to the request</li>
-                    <li class="list-group-item list-group-item-success" style="font-size:medium">Inside this method, Object Instantian of the POCO can be done here</li>
-                    <li class="list-group-item list-group-item-danger" style="font-size:medium">This data can be passed into the view for displaying inside the View</li>
+                    <li class="list-group-item list-group-item-secondary" style="font-size:medium">IActionResult() is an Interface which specifies how the server should respond to the request</li>
+                    <li class="list-group-item list-group-item-success" style="font-size:medium">Inside this method, Object Instantian of the POCO can be done here to pass data</li>
+                    <li class="list-group-item list-group-item-danger" style="font-size:medium">By Right Click on the method, in this case POCODataReturn()</li>
+                    <li class="list-group-item list-group-item-dark" style="font-size:medium">Click Add View and from here it is possible to generate a View which is populated by the POCO</li>
+
                 </ul>
-                <img src="/images/controller.png" class="img-fluid" alt="Responsive image">
+                <img src="/images/listOfPocos.png" class="img-fluid" alt="Responsive image">
 
             </div>
             <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
                 <ul class="list-group" style="text-size-adjust:auto">
                     <li class="list-group-item list-group-item-primary" style="font-size:medium">Upon Instantian of the Controller, a View Folder should have been generated</li>
-                    <li class="list-group-item list-group-item-secondary" style="font-size:medium">Right Click on the Home folder inside Views and create a new Empty View</li>
-                    <li class="list-group-item list-group-item-success" style="font-size:medium">If your View does not auto-generate, Right Click on the Method in your Controller</li>
-                    <li class="list-group-item list-group-item-danger" style="font-size:medium">Now you can create a new View importing all necessary HTML as desired</li>
-                    <li class="list-group-item list-group-item-warning" style="font-size:medium">Type the following code screen at the top of your View HTML file:</li>
+                    <li class="list-group-item list-group-item-secondary" style="font-size:medium">If your View does not auto-generate, Right Click on the Method in your Controller</li>
+                    <li class="list-group-item list-group-item-success" style="font-size:medium">Now you can create a new View importing all necessary HTML as desired</li>
+                    <li class="list-group-item list-group-item-danger" style="font-size:medium">If you did not auto-generate your View, type the following:</li>
                     <img src="/images/view.png" class="img-fluid" alt="Responsive image">
                     <li class="list-group-item list-group-item-primary" style="font-size:medium">Now inside this HTML View, attributes can be delcared like so:</li>
                     <img src="/images/callingPOCO.png" class="img-fluid" alt="Responsive image">
                 </ul>
             </div>
-
-            <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
-                <ul class="list-group" style="text-size-adjust:auto">
-                    <li class="list-group-item list-group-item-primary" style="font-size:medium">@Model.name</li>
-                    <li class="list-group-item list-group-item-secondary" style="font-size:medium"></li>
-                    <li class="list-group-item list-group-item-success" style="font-size:medium"></li>
-                    <li class="list-group-item list-group-item-danger" style="font-size:medium"></li>
-                </ul>
-                <img src="/images/poco.png" class="img-fluid" alt="Responsive image">
-
-            </div>
         </div>
     </div>
-
 </div>
 
 

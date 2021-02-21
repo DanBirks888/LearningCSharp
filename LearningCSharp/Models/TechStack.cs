@@ -8,6 +8,6 @@ namespace LearningCSharp.Models
         public string name { get; set; }
         public bool UsedBefore { get; set; }
         public int Proficiency { get; set; }
-        public List<string> FavAtrributes { get; set; }
+        public string FavAtrribute { get; set; }
     }
 }
