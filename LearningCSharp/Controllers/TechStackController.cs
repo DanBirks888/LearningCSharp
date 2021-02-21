@@ -12,13 +12,13 @@ namespace LearningCSharp.Controllers
     public class TechStackController : Controller
     {
         // GET: /<controller>/
-        public IActionResult Index()
+        public IActionResult AspDotNet()
         {
             var ts = new TechStack() {
                 name = "Java",
                 UsedBefore = true,
                 Proficiency = 7,
-                FavAtrributes = { "Intellij", "Themes", "Spring Boot", "Syntax Layout" } };
+                FavAtrributes = { "IntelliJ", "Themes", "Spring Boot", "Syntax Layout" } };
             return View(ts);
         }
     }

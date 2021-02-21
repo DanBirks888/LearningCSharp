@@ -28,7 +28,7 @@ namespace LearningCSharp.Controllers
             return View();
         }
 
-        public IActionResult aspDotNet()
+        public IActionResult AspDotNet()
         {
             return View();
         }
