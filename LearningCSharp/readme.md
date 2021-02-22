@@ -8,7 +8,7 @@
 ### The purpose
 
 > First exposure to C# and the ASP.NET framework can be quite overwhelming. Therefore, my optimal learning approach for this is to:
-1. Practically implement the code through trail and error
+1. Practically implement the code through trial and error
 2. Explain the processes in writing or verbally straight after
 
 ### Soon to implement
