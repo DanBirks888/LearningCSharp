@@ -5,52 +5,54 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1 class="text-center">Retuning Data from Poco (Hardcoded)</h1>
-
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table table-dark; rounded">
-    <thead>
-        <tr class="bg-dark" style="color:ghostwhite">
-            <th>
-                @Html.DisplayNameFor(model => model.Name)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.UsedBefore)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Proficiency)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.FavAtrribute)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Name)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.UsedBefore)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Proficiency)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.FavAtrribute)
-            </td>
-            <td>
-                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
-
-<h1 class="text-center">Returning data from the T-SQL Database</h1>
+<h1 class="text-center">Returning Data</h1>
+<div class="card text-center">
+    <div class="card-body">
+        <h4 class="card-title">Using Auto-Generate Options and Functionality:</h4>
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-secondary">When generating a View, it is important to select the Razer View Option</li>
+            <li class="list-group-item list-group-item-success">Razer View Provides options for What Class the data will be Instantiated from</li>
+            <li class="list-group-item list-group-item-danger">For Websites such as this it is important to select the layout.cshtml, to keep page consistency</li>
+            <li class="list-group-item list-group-item-warning">Once generated, the content can be wrapped like it is on this page, and edited using Bootstrap classes!</li>
+        </ul>
+        <h4 class="card-header">Returning Data from Poco (Hardcoded):</h4>
+        <table class="table table-dark; py-xl-5">
+            <thead>
+                <tr class="bg-dark" style="color:ghostwhite">
+                    <th>
+                        @Html.DisplayNameFor(model => model.Name)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.UsedBefore)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Proficiency)
+                    </th>
+                    <th style="text-align:right">
+                        @Html.DisplayNameFor(model => model.FavAtrribute)
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Name)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.UsedBefore)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Proficiency)
+                        </td>
+                        <td style="text-align:right">
+                            @Html.DisplayFor(modelItem => item.FavAtrribute)
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+<h1 class="text-center" style="padding:20px">Returning data from the T-SQL Database</h1>
