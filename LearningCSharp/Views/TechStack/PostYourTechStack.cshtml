@@ -1,0 +1,53 @@
+﻿@model LearningCSharp.Models.TechStack
+
+@{
+    ViewData["Title"] = "PostYourTechStack";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1 class="text-center">Post your favourite tech stack</h1>
+
+<div class="card text-center">
+    <div class="card-body">
+        <h4 class="card-title">Returning data from the T-SQL Database:</h4>
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-primary">Right Click Solution Explorer and create a new Project called SQL Server</li>
+            <li class="list-group-item list-group-item-secondary"></li>
+            <li class="list-group-item list-group-item-success"></li>
+            <li class="list-group-item list-group-item-danger"></li>
+        </ul>
+        <div class="row" style="align-content:center">
+            <div class="col-md-4">
+                <form asp-action="PostYourTechStack">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group">
+                        <label asp-for="Name" class="control-label"></label>
+                        <input asp-for="Name" class="form-control" />
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                    <div class="form-group form-check">
+                        <label class="form-check-label">
+                            <input class="form-check-input" asp-for="UsedBefore" /> @Html.DisplayNameFor(model => model.UsedBefore)
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Proficiency" class="control-label"></label>
+                        <input asp-for="Proficiency" class="form-control" />
+                        <span asp-validation-for="Proficiency" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="FavAtrribute" class="control-label"></label>
+                        <input asp-for="FavAtrribute" class="form-control" />
+                        <span asp-validation-for="FavAtrribute" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Create" class="btn btn-primary" />
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-8">
+                <h4 class="card-header">Returning Data from SQL Server:</h4>
+            </div>
+        </div>
+    </div>
+</div>

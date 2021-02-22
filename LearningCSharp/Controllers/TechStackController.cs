@@ -22,5 +22,12 @@ namespace LearningCSharp.Controllers
             return View(ts);
       
         }
+
+        public IActionResult PostYourTechStack()
+        {
+            ViewBag.Message = "Post your favourite Tech Stack!";
+
+            return View();
+        }
     }
 }
