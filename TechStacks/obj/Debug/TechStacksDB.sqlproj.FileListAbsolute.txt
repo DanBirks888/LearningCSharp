@@ -1,0 +1,6 @@
+C:\Users\drbor\source\repos\LearningCSharp\TechStacks\bin\Debug\TechStacksDB.dacpac
+C:\Users\drbor\source\repos\LearningCSharp\TechStacks\bin\Debug\TechStacks.dll
+C:\Users\drbor\source\repos\LearningCSharp\TechStacks\bin\Debug\TechStacks.pdb
+C:\Users\drbor\source\repos\LearningCSharp\TechStacks\obj\Debug\TechStacksDB.sqlprojAssemblyReference.cache
+C:\Users\drbor\source\repos\LearningCSharp\TechStacks\obj\Debug\TechStacks.dll
+C:\Users\drbor\source\repos\LearningCSharp\TechStacks\obj\Debug\TechStacks.pdb

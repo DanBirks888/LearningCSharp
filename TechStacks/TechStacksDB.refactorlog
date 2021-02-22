@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="68cff512-b176-404a-89c8-8f4363516fc1" ChangeDateTime="02/22/2021 16:02:11">
+    <Property Name="ElementName" Value="[dbo].[TechStacks].[Procif]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TechStacks]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Proficiency" />
+  </Operation>
+</Operations>
